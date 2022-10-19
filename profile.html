@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/free-vector/illustration-circle-stamp-banner-vector_53876-27183.jpg?w=2000">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/e0c35786e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navigator">
+                <a class="title" href="home.html">
+                    <div class="logo"> 
+                        <img src="https://img.freepik.com/free-vector/illustration-circle-stamp-banner-vector_53876-27183.jpg?w=2000"> 
+                    </div>
+                    <div> PAYROLL SYSTEM </div>
+                </a>
+                <div class="selector">
+                    <button class="nav" id="btn-home">
+                        <i class="fa-solid fa-house"></i> Home
+                    </button>
+                    <button class="nav" id="btn-option">
+                        <i class="fa-solid fa-gear"></i> Settings
+                    </button>
+                    <button class="nav" id="btn-logout">
+                        <i class="fa-solid fa-right-from-bracket"></i> Logout
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="body" style="min-height: 80vh;">
+            <div class="p-content">
+                <div class="p-row">
+                    <div class="p-col"> 
+                        <div class="g-title">Employee Identification</div>
+                        <div class="g-content">
+                            <input type="text" placeholder="Employee ID"> 
+                            <input type="text" placeholder="Full Name">  
+                            <input type="text" placeholder="Age"> 
+                            <input type="text" placeholder="Gender"> 
+                        </div>
+                    </div>
+                    <div class="p-col"> 
+                        <div class="g-title">Department</div>
+                        <div class="g-content" style="display:flex; flex-direction: column;">
+                            <input type="text" placeholder="Job Department"> 
+                            <input type="text" placeholder="Salary Range"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="p-row">
+                    
+                    <div class="p-col"> 
+                        <div class="g-title">Attendance</div>
+                        <div class="g-content" style="display:flex; flex-direction: column;">
+                            <input type="text" placeholder="Undertime"> 
+                            <input type="text" placeholder="Absent">
+                        </div>
+                    </div>
+                    <div class="p-col"> 
+                        <div class="g-title">Deduction</div>
+                        <div class="g-content">
+                            <input type="text" placeholder="SSS"> 
+                            <input type="text" placeholder="PAGIBIG">  
+                            <input type="text" placeholder="PhilHealth "> 
+                            <input type="text" placeholder="Late"> 
+                        </div>
+                    </div>
+                </div>
+                <div class="p-row">
+                    <div class="p-col"> 
+                        <div class="g-title">Salary</div>
+                        <div class="g-content">
+                            <input type="text" placeholder="Overtime"> 
+                            <input type="text" placeholder="Amount">
+                        </div>
+                    </div>
+                    <div class="p-col"> 
+                        <div class="g-title">Pay Roll</div>
+                        <div class="g-content">
+                            <input type="text" placeholder="Date"> 
+                            <input type="text" placeholder="Total Amount">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-row">
+                    <button class="normal" id="btn-profile-back"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                    <button class="accept" id="btn-profile-save"><i class="fa-solid fa-floppy-disk"></i> Save</button>
+                </div>
+            </div>
+        </div>  
+        <div class="footer">
+            Payroll System | 2022 | <i class="fa-regular fa-copyright"></i> All rights reserved
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- JQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="script.js"></script>
