@@ -1,7 +1,7 @@
 $(document).ready(()=>{
     
     $("#btn-logout").on("click", ()=>{
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     }); 
 
     $("#btn-home").on("click", ()=>{
